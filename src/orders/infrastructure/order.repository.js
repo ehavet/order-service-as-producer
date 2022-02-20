@@ -1,10 +1,10 @@
 import {Status} from '../domain/status.js'
 
 let orders = [
-    {id: 1, itemId: 'brow', quantity: 123, status: Status.VALIDATED},
-    {id: 2, itemId: 'coke', quantity: 12, status: Status.CANCELED},
-    {id: 3, itemId: 'acid', quantity: 55, status: Status.VALIDATED},
-    {id: 4, itemId: 'crys', quantity: 5, status: Status.CANCELED},
+    {id: 1, clientId: 'r4ch0', itemId: 'brow', quantity: 123, status: Status.VALIDATED},
+    {id: 2, clientId: 'r4cl0', itemId: 'coke', quantity: 12, status: Status.CANCELED},
+    {id: 3, clientId: 'c4ss0', itemId: 'acid', quantity: 55, status: Status.VALIDATED},
+    {id: 4, clientId: 'cl0d0', itemId: 'crys', quantity: 5, status: Status.CANCELED},
 ]
 
 export class OrderRepository {
